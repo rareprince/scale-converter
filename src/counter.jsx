@@ -23,7 +23,7 @@ export default function ScaleConversion() {
           <select className="scale">
             <option value="centimeter">Centimeter</option>
             <option value="Meter">Meter</option>
-            <option selected value="Inches">
+            <option defaultValue="Inches">
               Inches
             </option>
             <option value="Feet">Feet</option>
@@ -35,7 +35,7 @@ export default function ScaleConversion() {
         <label>
           Select the scale you want to convert to:
           <select className="scale">
-            <option selected value="centimeter">
+            <option defaultValue="centimeter">
               Centimeter
             </option>
             <option value="Meter">Meter</option>
